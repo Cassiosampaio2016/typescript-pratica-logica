@@ -23,5 +23,5 @@ class Aluno{
     };
 };
 
-let aluno:Aluno = new Aluno('Cássio',5,9);
+let aluno = new Aluno('Cássio',5,9);
 console.log(aluno.situacao());

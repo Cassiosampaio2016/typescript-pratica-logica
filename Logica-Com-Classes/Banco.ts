@@ -27,7 +27,7 @@ class Banco{
     };
 };
 
-let conta: Banco = new Banco('Cássio',0);
+let conta = new Banco('Cássio',0);
 console.log(conta.sacar(100))
 console.log(conta.depositar(200))
 console.log(conta.sacar(100))

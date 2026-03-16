@@ -14,7 +14,7 @@ class Produto{
     };
 };
 
-let produto:Produto = new Produto('carne', 4.56);
+let produto = new Produto('carne', 4.56);
 console.log(produto.mostrarProduto());
 produto.alterarPreco(10);
 console.log(produto.mostrarProduto());
